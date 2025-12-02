@@ -14,7 +14,7 @@ class CashRegister:
         self.last_quantity = quantity
         for _ in range(quantity):
             self.items.append(title)
-g
+
     def apply_discount(self):
         if self.discount > 0:
             discount_amount = self.total * (self.discount / 100.0)
